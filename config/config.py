@@ -7,54 +7,58 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID"))
+API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH")
 
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "❛-𝐒𝐡𝐢𝐳𝐮𝐤𝐚 🕊️⃝‌ٖٖٖٖ ‌ٖٖٖٖٖ🦋 𝐌𝐮𝐒𝐢𝐜'𝐗 🎸(")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5463205082").split()))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
+SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/its-star-boi/ShizukaXMusic")
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
+HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+BOT_ID = getenv("BOT_ID")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+
+UPSTREAM_REPO = getenv(
+    "UPSTREAM_REPO",
+    "https://github.com/its-star-boi/ShizukaXMusic",
+)
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/its-star-boi/ShizukaXMusic")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Star_X_Network")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Best_FriendsFor_Ever")
 
-SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
-
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
-
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
-AUTO_LEAVE_ASSISTANT_TIME = int(
-    getenv("ASSISTANT_LEAVE_TIME", "5400")
-)
-
-AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
-
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
+AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "5400"))
+AUTO_SUGGESTION_TIME = int(getenv("AUTO_SUGGESTION_TIME", "5400"))
+AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
+AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", None)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
-
-YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
-TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "3"))
+YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
+TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
-VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "5"))
-SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "50"))
+VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "3"))
 
-CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "12"))
+SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "30"))
+
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "25"))
+
+CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "5"))
 
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
+
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
