@@ -128,7 +128,7 @@ async def gen_thumb(videoid):
                 (670, 150),
                 "Now Playing",
                 fill="white",
-                font=font2,
+                font=font1,
                 stroke_width=2,
                 stroke_fill="white",
                 align="left",
