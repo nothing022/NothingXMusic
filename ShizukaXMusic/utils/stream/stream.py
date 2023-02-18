@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup
 
 import config
 from ShizukaXMusic import Carbon, YouTube, app
-from ShizukaXMusic.core.call import Alexa
+from ShizukaXMusic.core.call import Shizuka
 from ShizukaXMusic.misc import db
 from ShizukaXMusic.utils.database import (
     add_active_chat,
@@ -18,7 +18,7 @@ from ShizukaXMusic.utils.database import (
 from ShizukaXMusic.utils.exceptions import AssistantErr
 from ShizukaXMusic.utils.inline.play import stream_markup, telegram_markup
 from ShizukaXMusic.utils.inline.playlist import close_markup
-from ShizukaXMusic.utils.pastebin import Alexabin
+from ShizukaXMusic.utils.pastebin import Shizukabin
 from ShizukaXMusic.utils.stream.queue import put_queue, put_queue_index
 from ShizukaXMusic.utils.thumbnails import gen_thumb
 
@@ -42,7 +42,7 @@ async def stream(
         if not await is_video_allowed(chat_id):
             raise AssistantErr(_["play_7"])
     if forceplay:
-        await Alexa.force_stop_stream(chat_id)
+        await Shizuka.force_stop_stream(chat_id)
     if streamtype == "playlist":
         msg = f"{_['playlist_16']}\n\n"
         count = 0
@@ -89,7 +89,7 @@ async def stream(
                     )
                 except:
                     raise AssistantErr(_["play_16"])
-                await Alexa.join_call(
+                await Shizuka.join_call(
                     chat_id, original_chat_id, file_path, video=status
                 )
                 await put_queue(
@@ -120,7 +120,7 @@ async def stream(
         if count == 0:
             return
         else:
-            link = await Alexabin(msg)
+            link = await Shizukabin(msg)
             lines = msg.count("\n")
             if lines >= 17:
                 car = os.linesep.join(msg.split(os.linesep)[:17])
@@ -166,7 +166,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Alexa.join_call(chat_id, original_chat_id, file_path, video=status)
+            await Shizuka.join_call(chat_id, original_chat_id, file_path, video=status)
             await put_queue(
                 chat_id,
                 original_chat_id,
@@ -216,7 +216,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Alexa.join_call(chat_id, original_chat_id, file_path, video=None)
+            await Shizuka.join_call(chat_id, original_chat_id, file_path, video=None)
             await put_queue(
                 chat_id,
                 original_chat_id,
@@ -264,7 +264,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Alexa.join_call(chat_id, original_chat_id, file_path, video=status)
+            await Shizuka.join_call(chat_id, original_chat_id, file_path, video=status)
             await put_queue(
                 chat_id,
                 original_chat_id,
@@ -317,7 +317,7 @@ async def stream(
             n, file_path = await YouTube.video(link)
             if n == 0:
                 raise AssistantErr(_["str_3"])
-            await Alexa.join_call(chat_id, original_chat_id, file_path, video=status)
+            await Shizuka.join_call(chat_id, original_chat_id, file_path, video=status)
             await put_queue(
                 chat_id,
                 original_chat_id,
@@ -365,7 +365,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Alexa.join_call(
+            await Shizuka.join_call(
                 chat_id,
                 original_chat_id,
                 link,
