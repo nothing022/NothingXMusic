@@ -2,7 +2,7 @@
 
 <h4 align="center">Shizuka A Powerful, Smart And Simple Bot To Play Audio And Video Song In Telegram<br> ... Written With Python and Telethon...</h4>
 
-<p align="center"><a href="https://telegram.dog/its_star_boi"><img src="https://telegra.ph/file/f6064bc90cc76e59015b2.jpg" width="400"></a></p>
+<p align="center"><a href="https://telegram.dog/its_star_boi"><img src="https://te.legra.ph/file/159d3f9e2d57dd02db970.jpg" width="400"></a></p>
 
 <p align="center">
     <a href="https://app.codacy.com/manual/its-star-boi/ShizukaXMusic/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
