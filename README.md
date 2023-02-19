@@ -142,6 +142,39 @@
 <p><a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fits-star-boi%2FShizukaXMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="200"/></a></p>
 </details>
 
+<details>
+<summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ</b></summary>
+<br>
+
+- Get your [Necessary Variables](https://github.com/its-star-boi/ShizukaXMusic/blob/main/sample.env)
+- Upgrade and Update by :
+`sudo apt-get update && sudo apt-get upgrade -y`
+- Install Ffmpeg by :
+`sudo apt-get install python3-pip ffmpeg -y`
+- Install required packages by :
+`sudo apt-get install python3-pip -y`
+- Install pip by :
+`sudo pip3 install -U pip`
+- Install Node js by :
+`curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
+- Clone the repository by :
+`git clone https://github.com/its-star-boi/ShizukaXMusic && cd ShizukaXMusic`
+- Install requirements by :
+`pip3 install -U -r requirements.txt`
+- Fill your variables in the env by :
+`vi sample.env`<br>
+Press `I` on the keyboard for editing env<br>
+Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
+- Rename the env file by :
+`mv sample.env .env`
+- Install screen to keep running your bot when you close the terminal by :
+`sudo apt install screen -y`
+- Finally run the bot by :
+`screen bash start`
+- For getting out from tmux session : Press `Ctrl+b` and then `d`<br>
+
+</details>
+
 # Owner And Credit)
 <details>
 <summary><b>ᴄʀᴇᴅɪᴛ</b></summary>
