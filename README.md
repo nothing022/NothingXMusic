@@ -143,7 +143,7 @@
 </details>
 
 <details>
-<summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ</b></summary>
+<summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ᴠᴘs</b></summary>
 <br>
 
 - Get your [Necessary Variables](https://github.com/its-star-boi/ShizukaXMusic/blob/main/sample.env)
@@ -171,7 +171,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 `sudo apt install screen -y`
 - Finally run the bot by :
 `screen bash start`
-- For getting out from tmux session : Press `Ctrl+b` and then `d`<br>
+<br>
 
 </details>
 
