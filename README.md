@@ -101,7 +101,7 @@
 - [ᴘʏᴛʜᴏɴ𝟹.𝟿](https://www.python.org/downloads/release/python-390/)
 - [ᴛᴇʟᴇɢʀᴀᴍ ᴀᴘɪ ᴋᴇʏ](https://docs.pyrogram.org/intro/setup#api-keys)
 - [ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ](https://telegram.dog/botfather)
-- [ᴍᴏɴɢᴏᴅʙ URI](https://telegra.ph/How-To-get-Mongodb-URI-04-06)
+- [ᴍᴏɴɢᴏᴅʙ URI](https://te.legra.ph/How-To-get-Mongodb-URI-04-06)
 - [sᴛʀɪɴɢ sᴇssɪᴏɴ](https://telegram.dog/STRING_SESSION_MAKER_BOT)
     
 </details>
