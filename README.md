@@ -1,8 +1,8 @@
-<h1 align="center"><b>❤️ SHIZUKA MUSIC ❤️</b></h1>
+<h1 align="center"><b>❤️ NOTHING MUSIC ❤️</b></h1>
 
-<h4 align="center">Shizuka A Powerful, Smart And Simple Bot To Play Audio And Video Song In Telegram<br> ... Written With Python and Telethon...</h4>
+<h4 align="center">Nothing A Powerful, Smart And Simple Bot To Play Audio And Video Song In Telegram<br> ... Written With Python and Telethon...</h4>
 
-<p align="center"><a href="https://telegram.dog/its_star_boi"><img src="https://te.legra.ph/file/159d3f9e2d57dd02db970.jpg" width="400"></a></p>
+<p align="center"><a href="https://telegram.dog/its_star_boi"><img src="https://telegra.ph/file/7def14575a590f1ae1f87.jpg" width="400"></a></p>
 
 <p align="center">
     <a href="https://github.com/its-star-boi/ShizukaXMusic"> <img src="https://img.shields.io/github/repo-size/its-star-boi/ShizukaXMusic?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
@@ -12,10 +12,10 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
-> ⭐️ Thanks to everyone for using Shizuka,  🤭 That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone for using Nothing,  🤭 That is the greatest pleasure we have !
 
 
-## Features Of Shizuka And Commands ❤️
+## Features Of Nothing And Commands ❤️
 
 <details>
 <summary><b>ғᴇᴀᴛᴜʀᴇs</b></summary>
