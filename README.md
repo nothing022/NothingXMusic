@@ -2,7 +2,7 @@
 
 <h4 align="center">Nothing A Powerful, Smart And Simple Bot To Play Audio And Video Song In Telegram<br> ... Written With Python and Telethon...</h4>
 
-<p align="center"><a href="https://telegram.dog/its_star_boi"><img src="https://telegra.ph/file/7def14575a590f1ae1f87.jpg" width="400"></a></p>
+<p align="center"><a href="https://telegram.dog/its_star_boi"><img src="https://telegra.ph/file/f625ce8b7862d84b4e919.jpg" width="400"></a></p>
 
 <p align="center">
     <a href="https://github.com/its-star-boi/ShizukaXMusic"> <img src="https://img.shields.io/github/repo-size/its-star-boi/ShizukaXMusic?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
