@@ -42,7 +42,7 @@
 <details>
 <summary><b>ʙᴀsɪᴄ ᴄᴍᴅs</b></summary>
 <br>
-
+- `/skip` - play next song
 - `/play <song name>` - play song you requested
 - `/playlist` - Show now playing list
 - `/song <song name>` - download songs you want quickly
@@ -183,7 +183,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 ## sᴘᴇᴄɪᴀʟ ᴄʀᴇᴅɪᴛ
 
 - [sᴛᴀʀ ʙᴏɪ](https://telegram.dog/Infinityuncounted01)
-- [ᴀsᴀᴅ ᴀʟɪ](https://telegram.dog/Dr_Asad_Ali)
+- [ᴀsᴀᴅ ᴀʟɪ](https://telegram.dog/Infinityuncounted 01)
 - [ʟᴏɢɪ ʟᴀʙ](https://github.com/LOGI-LAB)
 - [ʜᴀʀsʜɪᴛ](https://telegram.dog/HarshitSharma361)
 - [Abhimanyu](https://telegram.dog/Itz_Venom_xD)
