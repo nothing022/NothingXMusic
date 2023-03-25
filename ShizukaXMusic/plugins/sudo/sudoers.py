@@ -91,7 +91,7 @@ async def userdel(client, message: Message, _):
 async def sudoers_list(client, message: Message, _):
     if message.from_user.id not in SUDOERS:
         return await message.reply_text(
-            "» **😁 ʜᴇʜᴇʜᴇ ᴏɴʟʏ ᴍʏ ᴛᴇᴀᴍ ᴄᴀɴ ᴅᴏ ᴛʜɪs ɴɪɢᴀ\n» 🤫 ᴄᴏᴢ ᴀʟᴇxᴀ ᴅᴏᴇsɴ'ᴛ ᴀʟᴏᴡ ʏᴏᴜ ᴛᴏ ᴘᴇʀғᴏᴍᴇ ᴛʜɪs ᴀᴄᴛɪᴏɴ ʙᴇᴛᴛᴇʀ sᴜɢɢᴇsᴛɪᴏɴ ғᴏʀ ʏᴏᴜ ᴛᴏ ᴊᴏɪɴ** @Best_FriendsFor_Ever"
+            "» **😁 ʜᴇʜᴇʜᴇ ᴏɴʟʏ ᴍʏ ᴛᴇᴀᴍ ᴄᴀɴ ᴅᴏ ᴛʜɪs ɴɪɢᴀ\n» 🤫 ᴄᴏᴢ ᴀʟᴇxᴀ ᴅᴏᴇsɴ'ᴛ ᴀʟᴏᴡ ʏᴏᴜ ᴛᴏ ᴘᴇʀғᴏᴍᴇ ᴛʜɪs ᴀᴄᴛɪᴏɴ ʙᴇᴛᴛᴇʀ sᴜɢɢᴇsᴛɪᴏɴ ғᴏʀ ʏᴏᴜ ᴛᴏ ᴊᴏɪɴ** @NothingBotz"
         )
     text = _["sudo_5"]
     count = 0
