@@ -33,7 +33,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/nothing022/NothingXMusic")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Star_X_Network")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NothingBots")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Best_FriendsFor_Ever")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
