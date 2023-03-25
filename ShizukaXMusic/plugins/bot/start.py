@@ -273,7 +273,7 @@ async def welcome(client, message: Message):
 @app.on_message(commandpro(["/alive", "/ping"]) & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/0d048443e85813227f253.jpg",
+        photo=f"https://te.legra.ph/file/b12bff61feed454e8e5bd.jpg",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴇʟʟᴏ, Nᴏᴛʜɪɴɢ ✘ Mᴜsɪᴄ ɪs ᴡᴏʀᴋɪɴɢ ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [Nᴏᴛʜɪɴɢ](https://t.me/Infinityuncounted01)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [Nᴏᴛʜɪɴɢ ʜᴇʟᴘ](https://t.me/NothingBotz)\n┣★ ʀᴇᴘᴏ › : [Nᴏᴛʜɪɴɢ ʀᴇᴘᴏ](https://github.com/nothing022/NothingXMusic)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/Infinityuncounted01) ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ sᴛᴀʀ ᴏᴜʀ ᴘʀᴏᴊᴇᴄᴛ ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━
 """,
         reply_markup=InlineKeyboardMarkup(
