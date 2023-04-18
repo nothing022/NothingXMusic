@@ -180,18 +180,6 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 <summary><b>ᴄʀᴇᴅɪᴛ</b></summary>
 <br>
 
-## sᴘᴇᴄɪᴀʟ ᴄʀᴇᴅɪᴛ
-
-- [sᴛᴀʀ ʙᴏɪ](https://telegram.dog/Infinityuncounted01)
-- [ᴀsᴀᴅ ᴀʟɪ](https://telegram.dog/Infinityuncounted 01)
-- [ʟᴏɢɪ ʟᴀʙ](https://github.com/LOGI-LAB)
-- [ʜᴀʀsʜɪᴛ](https://telegram.dog/HarshitSharma361)
-- [Abhimanyu](https://telegram.dog/Itz_Venom_xD)
-- [ᴍᴀssoᴍ](https://telegram.dog/Kattai_massom)
-- [ʏᴜᴋᴋɪ](https://github.com/NotReallyShikhar)
-- [ᴀɴᴏɴʏᴍᴏᴜs](https://github.com/TheAnonymous2005)
-</details>
-
 <details>
 <summary><b>sᴜᴘᴘᴏʀᴛ</b></summary>
 <br>
