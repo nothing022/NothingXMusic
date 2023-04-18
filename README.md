@@ -175,7 +175,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 
 </details>
 
-# Owner And Credit)
+# Owner)
 <details>
 <summary><b>ᴄʀᴇᴅɪᴛ</b></summary>
 <br>
