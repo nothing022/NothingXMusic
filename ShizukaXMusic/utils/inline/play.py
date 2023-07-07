@@ -56,7 +56,9 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 url=f"https://t.me/NothingBotz",
             )
         ],
-    ]
+        [
+            InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
+        ],
     return buttons
 
 
