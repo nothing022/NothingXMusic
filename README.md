@@ -23,7 +23,7 @@ nothing022/nothing022 is a ✨ _special_ ✨ repository because its README.md (t
   <img src="https://te.legra.ph/file/ec08a28e5134ff4df78be.jpg">
 </p>
 
-𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [𝄟NOTHING...👀𝗩𝗖🌷𝗕𝗢𝗧❥𝄟⃟🥀](https://t.me/NothingMusic2_bbot)
+𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [NOTHING MUSIC Bot](https://t.me/NothingMusic2_bbot)
 
 
 
