@@ -18,12 +18,12 @@ nothing022/nothing022 is a ✨ _special_ ✨ repository because its README.md (t
 
 ★ 𝙷𝙴𝚁𝙾𝙺𝚄 + 𝚅𝙿𝚂 ★
 </h2>
-<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=♦𝙳𝙴𝙿𝙻𝙾𝚈+𝙾𝙽+𝙷𝙴𝚁𝙾𝙺𝚄♦;♨️+𝙽𝙾+𝙷𝙴𝚁𝙾𝙺𝚄+𝙱𝙰𝙽+𝙸𝚂𝚂𝚄𝙴+𝙰𝙻𝚂𝙾+𝚅𝙿𝚂+𝙳𝙴𝙿𝙻𝙾𝚈+📍+𝙿𝚁𝙴𝚂𝙴𝙽𝚃;🎭+𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈+NOTHING...👀🙂+🎭">
+<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=♦𝙳𝙴𝙿𝙻𝙾𝚈+𝙾𝙽+𝙷𝙴𝚁𝙾𝙺𝚄♦;♨️+𝙽𝙾+𝙷𝙴𝚁𝙾𝙺𝚄+𝙱𝙰𝙽+𝙸𝚂𝚂𝚄𝙴+𝙰𝙻𝚂𝙾+𝚅𝙿𝚂+𝙳𝙴𝙿𝙻𝙾𝚈+📍+𝙿𝚁𝙴𝚂𝙴𝙽𝚃;🎭+𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈+Nᴏᴛʜɪɴɢ...👀🙂+🎭">
 <p align="center">
   <img src="https://te.legra.ph/file/ec08a28e5134ff4df78be.jpg">
 </p>
 
-𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [NOTHING MUSIC Bot](https://t.me/NothingMusic2_bbot)
+𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [Nᴏᴛʜɪɴɢ Mᴜsɪᴄ Bᴏᴛ](https://t.me/NothingMusic2_bbot)
 
 
 
