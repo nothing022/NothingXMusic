@@ -40,7 +40,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text=" ᴏᴡɴᴇʀ 👀", url=f"https://t.me/Infinityuncounted01"
+                text="✯ ᴏᴡɴᴇʀ ✯", url=f"https://t.me/Infinityuncounted01"
             ),
         ],
         [
@@ -48,11 +48,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 💌", url=f"https://t.me/NothingBots"),
+            InlineKeyboardButton(text="✯ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ✯", url=f"https://t.me/NothingBots"),
         ],
         [
             InlineKeyboardButton(
-                text=f"☀ Nᴏᴛʜɪɴɢ Mᴀɴᴀɢᴇᴍᴇɴᴛ ☀",
+                text=f"✯ Nᴏᴛʜɪɴɢ Mᴀɴᴀɢᴇᴍᴇɴᴛ ✯",
                 url=f"https://t.me/NothingBotz",
             )
         ],
