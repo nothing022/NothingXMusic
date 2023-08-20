@@ -270,7 +270,7 @@ async def welcome(client, message: Message):
             return
 
 
-@app.on_message(commandpro(["/alive", "/ping"]) & ~filters.edited)
+@app.on_message(commandpro(["/malive", "/mping"]) & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/b12bff61feed454e8e5bd.jpg",
